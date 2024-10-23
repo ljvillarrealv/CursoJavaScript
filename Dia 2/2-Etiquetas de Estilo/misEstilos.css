@@ -1,0 +1,9 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+}
+p{
+    color: brown;
+    border: 3px;
+    border-style: solid;
+}

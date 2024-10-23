@@ -1,0 +1,12 @@
+p{text-align: center;}
+
+.normal{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.destacado{
+    background-color: rgb(194, 81, 81);
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
