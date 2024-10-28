@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+<Title>Paràmetros</Title>
+</head>
+<body>
+
+<p>Primer numero</p>
+<input type="number" id="primerNumero">
+<br></br>
+<p>Segundo numero</p>
+<input type="number" id="segundoNumero">
+<br>
+<br>
+<button onclick="mostrarResultado()">Calcular</button>
+<br>
+<h2 id="textResultado"></h2>
+
+    <script>
+        let n1;
+        let n2;
+        function sumar(n1, n2){
+            resultado = +n1 + +n2;
+            return resultado;
+        }
+        
+        function mostrarResultado(){
+            let elementoUno = document.getElementById("primerNumero");
+            let elementoDos = document.getElementById("segundoNumero");
+            let elementoTexto = document.getElementById("textResultado");
+            let elementoSuma = sumar(elementoUno.value, elementoDos.value);
+
+            elementoTexto.textContent = elementoSuma;
+        }
+
+    
+
+    </script>
+    
+</body>

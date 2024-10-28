@@ -1,0 +1,63 @@
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 1em;
+    color: #efeeee;
+}
+  
+p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1em;
+}
+
+body {
+    background-color: rgb(101, 207, 101);
+}
+
+button {
+    color: white;
+    background-color: cadetblue;
+    border-style: hidden;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+.btn-calc {
+    width: 81.5px; /* Ajusta el valor al ancho que desees */
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px 0;
+}
+.btn-calc2 {
+    width: 168px; /* Ajusta el valor al ancho que desees */
+    padding: 10px;
+    font-size: 16px;
+    margin: 0;
+}
+.btn-calc3 {
+    width: 100px; /* Ajusta el valor al ancho que desees */
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 16px;
+}
+.result {
+    border: 2px solid #333; /* Borde del rectángulo */
+    padding: 20px; /* Espacio interno alrededor del texto */
+    background-color: #f9f9f9; /* Color de fondo del rectángulo */
+    border-radius: 5px; /* Bordes ligeramente redondeados */
+    max-width: 300px; /* Ancho máximo para limitar el tamaño del rectángulo */
+    margin: 10px auto; /* Centrado y margen superior/inferior */
+    margin-left: 16px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Sombra para darle un efecto de profundidad */
+}
+
+.inNum{
+    border: 2px solid #333; /* Borde del rectángulo */
+    padding: 20px; /* Espacio interno alrededor del texto */
+    background-color: #f9f9f9; /* Color de fondo del rectángulo */
+    border-radius: 5px; /* Bordes ligeramente redondeados */
+    max-width: 125px; /* Ancho máximo para limitar el tamaño del rectángulo */
+    margin: 10px auto; /* Centrado y margen superior/inferior */
+    margin-left: 1px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Sombra para darle un efecto de profundidad */
+}
